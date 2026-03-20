@@ -1,0 +1,35 @@
+<main class="container">
+    <h1 class="h1 text-center mt-5 mb-4">Onde a luz se apaga e a sua história começa.</h1>
+    
+    <div class="mt-5 mb-5">
+        <form class="form" method="POST" action="/filme/cadastro">
+            
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">🎥</span>
+                <input type="text" class="form-control" name="titulo" placeholder="Qual seu filme" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">🧭</span>
+                <input type="text" class="form-control" name="diretor" placeholder="Diretor do Filme" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">📅</span>
+                <input type="date" class="form-control" name="lancamento" placeholder="Lançamento do filme" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">🚩</span>
+                <input type="text" class="form-control" name="genero" placeholder="Genero do filme" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="addon-wrapping">📖</span>
+                <input type="text" class="form-control" name="descricao" placeholder="Descrição do filme" aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+
+            <div class="text-center w-100"><button type="submit" class="btn btn-primary">Cadastrar Filme</button></div>
+        </form>
+    </div>
+</main>
